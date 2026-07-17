@@ -3,11 +3,11 @@ Developed a Python utility for recursively searching Windows filesystems to loca
 
 Disclaimer: This is not yet a finished product and will be expanded and debugged in the near future.
 
-# Fast File Finder
+# Folder_Finder.py
 
 ## Project Overview
 
-Fast File Finder is a Python command-line utility designed to automate the process of locating files or folders within a Windows system. Instead of manually navigating through directories, the tool recursively searches a user-specified directory and returns the full path to the requested file or folder when found.
+Folder_Finder is a Python command-line utility designed to automate the process of locating files or folders within a Windows system. Instead of manually navigating through directories, the tool recursively searches a user-specified directory and returns the full path to the requested file or folder when found.
 
 This project was created to strengthen Python programming fundamentals while exploring filesystem traversal and command-line automation.
 
@@ -63,7 +63,7 @@ If no directory is specified, the program defaults to searching the Windows root
 
 The script recursively traverses the filesystem using Python's `os.walk()` function.
 
-During each iteration it checks:
+During each iteration, it checks:
 
 * Current directories
 * Current files
